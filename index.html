@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>清水万由子 | 環境社会学・環境政策論</title>
+<meta name="description" content="龍谷大学政策学部教授 清水万由子の研究・教育・社会活動サイト。環境社会学、環境政策論、公害経験の継承を専門とする。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&family=Noto+Sans+JP:wght@400;500;600&family=Zen+Old+Mincho:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-layer"></div>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">清水万由子　環境社会学／環境政策論</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Education</a>
+      <a href="#activities">Activities</a>
+      <a href="#international">International</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img class="hero-bg-img active" src="images/hero-river.jpg" alt="西淀川の河川と街並み">
+      <img class="hero-bg-img" src="images/hero-sunrise.jpg" alt="海に昇る朝日">
+      <img class="hero-bg-img" src="images/hero-map.jpg" alt="地図を囲んで話し合う人々">
+      <img class="hero-bg-img" src="images/hero-bamboo.jpg" alt="竹林での活動の様子">
+    </div>
+    <div class="hero-inner hero-split">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="hero-line active">公害の経験を、未来につなぐ。</span>
+          <span class="hero-line">環境ガバナンスを、現場から考える。</span>
+          <span class="hero-line">若者と、社会をつなげる。</span>
+          <span class="hero-line">地域の自然と、かかわり直す。</span>
+        </h1>
+        <div class="hero-tags">
+          <a href="topics/kougai-chiiki-saisei.html">地域再生</a>
+          <a href="topics/kougai-keishou.html">公害経験の継承</a>
+          <a href="topics/wakamono-ishiki.html">若者の意識</a>
+          <a href="topics/shizen-saisei.html">自然再生</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-news">
+      <div class="hero-news-inner">
+        <span class="hero-news-label">News</span>
+        <div class="hero-news-track" id="newsTrack"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="section-inner about-grid">
+      <div class="about-photo">
+        <img src="images/profile.jpg" alt="清水万由子の写真">
+      </div>
+      <div class="about-body">
+        <p class="section-eyebrow">01 — About</p>
+        <h2 class="section-title">プロフィール</h2>
+        <p class="about-role">龍谷大学政策学部 教授</p>
+        <p class="about-lead">専門分野は環境社会学、環境政策論。環境問題を解決しようとする人間社会の動態、自然-社会-人間の相互作用を通じた主体形成に関心を持っています。<br><br>学部・大学院の講義、卒論・修論・博論指導のほか、NPO／NGOや地域団体等と連携した実践的活動にも取り組んでいます。</p>
+
+        <div class="tag-row">
+          <a href="topics/kougai-chiiki-saisei.html" class="tag">地域再生</a>
+          <a href="topics/kougai-keishou.html" class="tag">公害経験の継承</a>
+          <a href="topics/wakamono-ishiki.html" class="tag">若者の意識</a>
+          <a href="topics/shizen-saisei.html" class="tag">自然再生</a>
+        </div>
+
+        <div class="profile-extra">
+          <p>愛知県生まれ、京都府在住。</p>
+          <p>座右の銘は「狭き門より入れ」および「果報は寝て待て」。</p>
+        </div>
+
+        <div class="about-links">
+          <a class="text-link" href="https://researchmap.jp/read0152802" target="_blank" rel="noopener">researchmap で経歴・学歴を見る →</a>
+          <a class="text-link" href="https://www.policy.ryukoku.ac.jp/teacher/shimizu.html" target="_blank" rel="noopener">龍谷大学政策学部 教員紹介 →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section research-section">
+    <div class="section-inner">
+      <p class="section-eyebrow">02 — Research</p>
+      <h2 class="section-title">研究プロジェクト</h2>
+
+      <div class="project-list">
+        <div class="project-card status-ongoing" id="project-1">
+          <p class="project-period">2026–2029 ／ 科研費 基盤研究(C)</p>
+          <h3>「公害」言説の再構築に向けた環境修復的正義のパブリック・ヒストリー実践</h3>
+          <p class="project-desc">パブリック・ヒストリーの実践による公害経験の継承を、環境修復的正義として位置付け、「公害」言説の再構築を目指す。</p>
+          <div class="project-kw"><a href="topics/kougai-keishou.html">公害経験の継承</a></div>
+          <a class="text-link small" href="research/project-1.html">プロジェクト詳細ページを見る →</a>
+          <a class="text-link small" href="https://kaken.nii.ac.jp/ja/search/?kw=%E3%80%8C%E5%85%AC%E5%AE%B3%E3%80%8D%E8%A8%80%E8%AA%AC%E3%81%AE%E5%86%8D%E6%A7%8B%E7%AF%89%E3%81%AB%E5%90%91%E3%81%91%E3%81%9F%E7%92%B0%E5%A2%83%E4%BF%AE%E5%BE%A9%E7%9A%84%E6%AD%A3%E7%BE%A9%E3%81%AE%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%83%92%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E5%AE%9F%E8%B7%B5" target="_blank" rel="noopener">KAKEN で詳細を見る →</a>
+        </div>
+        <div class="project-card status-done" id="project-2">
+          <p class="project-period">2022–2026 ／ 科研費基盤研究(C)</p>
+          <h3>「困難な歴史」としての公害経験を学習し継承する主体形成過程の研究</h3>
+          <p class="project-desc">学校教育（高校・大学）、地域づくり、表現活動等の領域において、「困難な歴史」としての公害経験を学習し継承する実践の事例研究に取り組み、そこで生じている主体形成過程の解明を試みた。</p>
+          <div class="project-kw"><a href="topics/kougai-keishou.html">公害経験の継承</a></div>
+          <a class="text-link small" href="https://kaken.nii.ac.jp/ja/search/?kw=%E3%80%8C%E5%9B%B0%E9%9B%A3%E3%81%AA%E6%AD%B4%E5%8F%B2%E3%80%8D%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%85%AC%E5%AE%B3%E7%B5%8C%E9%A8%93%E3%82%92%E5%AD%A6%E7%BF%92%E3%81%97%E7%B6%99%E6%89%BF%E3%81%99%E3%82%8B%E4%B8%BB%E4%BD%93%E5%BD%A2%E6%88%90%E9%81%8E%E7%A8%8B%E3%81%AE%E7%A0%94%E7%A9%B6" target="_blank" rel="noopener">KAKEN で詳細を見る →</a>
+        </div>
+        <div class="project-card status-done" id="project-3">
+          <p class="project-period">2024.3–2025.2 ／ 公益財団法人日立財団 第55回倉田奨励金（人文・社会科学研究部門）</p>
+          <h3>非体験者の公害経験継承実践による学習効果の検証——公害地域の生活史制作を通した価値観形成</h3>
+          <p class="project-desc">公害経験者（被害者、地域住民）の生活史制作の実践を通した大学生の意識変容のありようを明らかにした。</p>
+          <div class="project-kw"><a href="topics/kougai-keishou.html">公害経験の継承</a></div>
+          <a class="text-link small" href="https://www.hitachi-zaidan.org/topics/topics106.html#ss04" target="_blank" rel="noopener">日立財団で詳細を見る →</a>
+        </div>
+        <div class="project-card status-done" id="project-4">
+          <p class="project-period">2023.10–2024.9 ／ ニッセイ財団 若手・奨励研究助成</p>
+          <h3>若者の環境意識と環境倫理の日中比較</h3>
+          <p class="project-desc">若年世代の環境意識構造を明らかにし、環境保全に向けた行動変容をもたらす環境倫理の生成過程を明らかにする。</p>
+          <div class="project-kw"><a href="topics/wakamono-ishiki.html">若者の意識</a></div>
+          <a class="text-link small" href="https://www.nihonseimei-zaidan.or.jp/kankyo/05.html" target="_blank" rel="noopener">ニッセイ財団で詳細を見る →</a>
+        </div>
+      </div>
+      <a class="text-link" href="https://researchmap.jp/read0152802" target="_blank" rel="noopener">researchmap で全プロジェクトを見る →</a>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section pub-section">
+    <div class="section-inner">
+      <p class="section-eyebrow">03 — Publications</p>
+      <h2 class="section-title">出版・公表</h2>
+      <p class="section-note">論文・書籍・口頭発表・その他（MISC）それぞれの最新3件を掲載しています。全件は researchmap をご覧ください。</p>
+
+      <div class="pub-tabs">
+        <button class="pub-tab active" data-target="pub-papers">論文</button>
+        <button class="pub-tab" data-target="pub-books">書籍</button>
+        <button class="pub-tab" data-target="pub-presentations">口頭発表</button>
+        <button class="pub-tab" data-target="pub-misc">その他</button>
+      </div>
+
+      <div class="pub-panel" id="pub-papers">
+        <ol class="pub-list" id="paperList"></ol>
+      </div>
+      <div class="pub-panel" id="pub-books" hidden>
+        <ol class="pub-list" id="bookList"></ol>
+      </div>
+      <div class="pub-panel" id="pub-presentations" hidden>
+        <ol class="pub-list" id="presList"></ol>
+      </div>
+      <div class="pub-panel" id="pub-misc" hidden>
+        <ol class="pub-list" id="miscList"></ol>
+      </div>
+
+      <a class="text-link" href="https://researchmap.jp/read0152802" target="_blank" rel="noopener">researchmap ですべての業績を見る →</a>
+    </div>
+  </section>
+
+  <!-- TEACHING -->
+  <section id="teaching" class="section teaching-section">
+    <div class="section-inner">
+      <p class="section-eyebrow">04 — Education</p>
+      <h2 class="section-title">教育</h2>
+
+      <div class="project-list">
+        <div class="project-card level-undergrad">
+          <h3>ゼミ</h3>
+          <p class="project-desc">大阪市西淀川区をフィールドに、公害経験の継承に取り組み、地域再生に参画します。</p>
+          <a class="text-link small" href="teaching/course-1.html">科目詳細を見る →</a>
+        </div>
+        <div class="project-card level-undergrad">
+          <h3>環境社会学</h3>
+          <p class="project-desc">聞き書き作品の読み解きと制作を通した "doing 環境社会学" です。</p>
+          <a class="text-link small" href="teaching/course-2.html">科目詳細を見る →</a>
+        </div>
+        <div class="project-card level-grad">
+          <h3>環境社会学研究</h3>
+          <p class="project-desc">環境社会学の文献輪読と研究発表を行います。</p>
+          <a class="text-link small" href="teaching/course-3.html">科目詳細を見る →</a>
+        </div>
+      </div>
+      <p class="section-footnote">※ 担当科目は年度によって変更があります。</p>
+    </div>
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section id="activities" class="section activities-section">
+    <div class="section-inner">
+      <p class="section-eyebrow">05 — Activities</p>
+      <h2 class="section-title">社会活動</h2>
+
+      <div class="project-list">
+        <div class="project-card">
+          <p class="project-period">NPO</p>
+          <h3>あおぞら財団</h3>
+          <p class="project-desc">ゼミ活動や研修等で協力して活動しています。</p>
+          <a class="text-link small" href="https://aozora.or.jp/" target="_blank" rel="noopener">あおぞら財団サイトを見る →</a>
+        </div>
+        <div class="project-card">
+          <p class="project-period">ネットワーク</p>
+          <h3>公害資料館ネットワーク</h3>
+          <p class="project-desc">全国の公害資料館の交流と相互学習のネットワークです。</p>
+          <a class="text-link small" href="https://kougai.info/" target="_blank" rel="noopener">公害資料館ネットワークを見る →</a>
+        </div>
+        <div class="project-card">
+          <p class="project-period">学生サークル</p>
+          <h3>龍谷大学サークル「竹っと」</h3>
+          <p class="project-desc">竹好きの学生と、竹林整備や竹の魅力発掘＆発信に取り組んでいます。</p>
+          <a class="text-link small" href="https://fukakusa.site/" target="_blank" rel="noopener">サイトを見る →</a>
+          <a class="text-link small" href="https://www.instagram.com/bamboo.ryukoku/" target="_blank" rel="noopener">Instagram を見る →</a>
+        </div>
+        <div class="project-card">
+          <p class="project-period">学会活動</p>
+          <h3>環境社会学会</h3>
+          <a class="text-link small" href="https://jaes.jp/" target="_blank" rel="noopener">環境社会学会サイトを見る →</a>
+        </div>
+        <div class="project-card">
+          <p class="project-period">学会活動</p>
+          <h3>環境経済・政策学会</h3>
+          <a class="text-link small" href="https://www.seeps.org/web/" target="_blank" rel="noopener">環境経済・政策学会サイトを見る →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNATIONAL -->
+  <section id="international" class="section intl-section">
+    <div class="section-inner intl-inner">
+      <p class="section-eyebrow">06 — For International Visitors</p>
+      <h2 class="section-title">For International Visitors</h2>
+      <p class="intl-text">I conduct research in environmental sociology and environmental policy, focusing on the transmission of pollution experience, environmental justice, and community regeneration in Japan.</p>
+      <p class="intl-text">For detailed information about my publications, research projects, and other academic activities in English, please visit my researchmap profile below. This site is written in Japanese, but your browser's translation feature can also help.</p>
+      <a class="intl-link" href="https://researchmap.jp/read0152802" target="_blank" rel="noopener">My researchmap profile (English / Japanese) →</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-inner contact-inner">
+      <p class="section-eyebrow">07 — Contact</p>
+      <h2 class="section-title">お問い合わせ</h2>
+      <p class="contact-text">研究・教育・社会活動に関するお問い合わせは、以下よりご連絡ください。</p>
+      <div class="contact-links">
+        <a class="text-link" href="https://www.policy.ryukoku.ac.jp/teacher/shimizu.html" target="_blank" rel="noopener">龍谷大学政策学部教員紹介 →</a>
+        <a class="text-link" href="https://jglobal.jst.go.jp/" target="_blank" rel="noopener">J-GLOBAL ID: 201001082484598555</a>
+        <a class="text-link" href="https://researchmap.jp/read0152802" target="_blank" rel="noopener">researchmap プロフィール →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Mayuko Shimizu</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
