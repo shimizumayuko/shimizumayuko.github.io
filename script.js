@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
   ];
 
   var newsItems = [
+    {y:"2026.09.16", title:"ゼミで西淀川でのフィールドワークを行いました", url:"https://aozora.or.jp/archives/45303"},
     {y:"2026.09.12", title:"日本環境教育学会年次大会で「にしよど公害かるたの制作と活用」について報告しました（ポスター発表）"},
     {y:"2026.09.05", title:"教職員等環境教育・学習推進リーダー養成研修（プログラム・デザインコース）があおぞら財団で開催されました", url:"https://policies.env.go.jp/policy/eco/esd-teacher/program-design.html"},
     {y:"2026.08.08", title:"開発教育協会研究集会（d-lab2026）自主ラウンドテーブルで「にしよど公害かるた」を紹介しました"},
